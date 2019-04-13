@@ -1,0 +1,19 @@
+body {
+        -webkit-animation: colorchange 60s infinite;
+        animation: colorchange 60s infinite;
+    }
+    @-webkit-keyframes colorchange {
+        0% {background: darkcyan}
+        25% {background: orangered}
+        50% {background: blue}
+        75% {background: darkmagenta}
+        100% {background: gold}
+    }
+    @keyframes colorchange {
+        0% {background: darkcyan}
+        25% {background: orangered}
+        50% {background: blue}
+        75% {background: darkmagenta}
+        100% {background: gold}
+    }
+

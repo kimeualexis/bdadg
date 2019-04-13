@@ -1,0 +1,58 @@
+{% extends 'users/base.html' %}
+{% block title %}BDADG{% endblock %}
+
+{% block content %}
+<div class="row">
+    {% if profiles %}
+        {% for prof in profiles %}
+            <div class="col-sm-3">
+            <div class="card card-body my-1">
+                <h3 style="color: black;text-align: center; font-family: Pacifico">{{ prof.fname }}&nbsp;{{ prof.sname }}</h3>
+            <img src="{{ prof.cover.url }}" class="rounded-circle" alt="" style="height: 130px; width: 130px; align-self: center;">
+                <div class="caption">
+                    <h5 class="text-center" style="font-family: 'Droid Sans';">{{ prof.profession }}</h5>
+                    <h6 class="text-center" style="font-family: FreeSerif;">{{ prof.bio }}</h6>
+                    <a href="{% url 'users:delete-profile' prof.id %}" class="btn btn-danger btn-sm" style="float: right;"><i class="fas fa-trash"></i> </a>
+
+                    <!-- Trigger the modal with a button -->
+                    <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal-{{ prof.id }}"><i class="fas fa-info"></i> </button>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-{{ prof.id }}" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header" style="padding:5px 5px;">
+                                    <h4 class="text-center" style="color: darkslategrey" ;><b>{{ prof.fname }}</b></h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p style="font-family: FreeSerif;">{{ prof.fname }} grew up in {{ prof.area_raised }}.
+                                    He went to {{ prof.primary_sch }} Primary School. He then proceeded to {{ prof.high_sch }} High School
+                                    and later joined {{ prof.campus }} to pursue {{ prof.course }}. {{ prof.fname }} joined MYSA Mathare North Library in
+                                    {{ prof.year_joined_library }} and participated in the Drama Group Activities. {{ prof.fname }} is a {{ prof.profession }}
+                                     and likes {{ prof.hobby }}.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="{% url 'users:update-profile' prof.id %}" class="btn btn-success btn-sm" style="float: left;margin-right: 85%;"><i class="fas fa-edit"></i> </a>
+                                     <a href="" class="btn btn-warning btn-sm" style="float: right;" data-dismiss="modal" ><i class="fas fa-times-circle"></i> </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            </div>
+        {% endfor %}
+    {% endif %}
+</div>
+{% endblock %}
