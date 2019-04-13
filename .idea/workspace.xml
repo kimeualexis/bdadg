@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6373c7f9-010a-45eb-807f-89bb5645871b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/users/templates/users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="6373c7f9-010a-45eb-807f-89bb5645871b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,11 +10,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/templates/users/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state relative-caret-position="170">
+              <caret line="32" column="134" selection-start-line="32" selection-start-column="134" selection-end-line="32" selection-end-column="134" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/users/templates/users/profile_confirm_delete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+              <folding>
+                <element signature="e#633#639#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,12 +90,12 @@
         <option value="$PROJECT_DIR$/users/urls.py" />
         <option value="$PROJECT_DIR$/users/templates/registration/signup.html" />
         <option value="$PROJECT_DIR$/users/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/users/templates/users/profile_confirm_delete.html" />
         <option value="$PROJECT_DIR$/users/models.py" />
         <option value="$PROJECT_DIR$/users/views.py" />
         <option value="$PROJECT_DIR$/users/static/users/css/styles.css" />
         <option value="$PROJECT_DIR$/users/templates/users/base.html" />
         <option value="$PROJECT_DIR$/users/templates/users/index.html" />
+        <option value="$PROJECT_DIR$/users/templates/users/profile_confirm_delete.html" />
       </list>
     </option>
   </component>
@@ -107,6 +117,24 @@
             <path>
               <item name="BDADG" type="b2602c69:ProjectViewProjectNode" />
               <item name="BDADG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BDADG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDADG" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BDADG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDADG" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BDADG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDADG" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,18 +202,17 @@
       <workItem from="1554897417171" duration="1761000" />
       <workItem from="1554899390696" duration="1806000" />
       <workItem from="1554969890989" duration="3930000" />
-      <workItem from="1555132078110" duration="17435000" />
+      <workItem from="1555132078110" duration="17719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24932000" />
+    <option name="totallyTimeSpent" value="25216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06980273" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1616085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -199,7 +226,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.44920635" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44920635" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -270,18 +297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/templates/users/profile_confirm_delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-          <folding>
-            <element signature="e#315#350#0#HTML" expanded="true" />
-            <element signature="e#571#607#0#HTML" expanded="true" />
-            <element signature="e#578#584#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/templates/registration/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -347,8 +362,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users/templates/users/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state relative-caret-position="170">
+          <caret line="32" column="134" selection-start-line="32" selection-start-column="134" selection-end-line="32" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/templates/users/profile_confirm_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+          <folding>
+            <element signature="e#633#639#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
