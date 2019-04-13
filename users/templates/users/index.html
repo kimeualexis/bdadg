@@ -30,8 +30,8 @@
                                 </div>
                                 <div class="modal-body">
                                     <p style="font-family: FreeSerif;">{{ prof.fname }} grew up in {{ prof.area_raised }}.
-                                    Went to {{ prof.primary_sch }} Primary School. Then proceeded to {{ prof.high_sch }} High School
-                                    and later joined {{ prof.campus }} to pursue {{ prof.course }}. {{ prof.fname }} joined MYSA Mathare North Library in
+                                    Went to {{ prof.primary_sch }} Primary School. Then proceeded to {{ prof.high_sch }} High School..
+                                    {% if prof.campus %}and later joined {{ prof.campus }} to pursue {{ prof.course }}.{% endif %} {{ prof.fname }} joined MYSA Mathare North Library in
                                     {{ prof.year_joined_library }} and participated in the Drama Group Activities. {{ prof.fname }} is a {{ prof.profession }}
                                      and likes {{ prof.hobby }}.</p>
                                 </div>

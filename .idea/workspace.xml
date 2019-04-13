@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6373c7f9-010a-45eb-807f-89bb5645871b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/users/templates/users/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,19 +12,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/users/templates/users/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="38" column="137" selection-start-line="38" selection-start-column="137" selection-end-line="38" selection-end-column="137" />
+            <state relative-caret-position="189">
+              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/templates/users/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="836">
               <caret line="44" column="159" selection-start-line="44" selection-start-column="159" selection-end-line="44" selection-end-column="159" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -82,10 +82,10 @@
         <option value="$PROJECT_DIR$/users/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/users/templates/users/profile_confirm_delete.html" />
         <option value="$PROJECT_DIR$/users/models.py" />
-        <option value="$PROJECT_DIR$/users/templates/users/index.html" />
         <option value="$PROJECT_DIR$/users/views.py" />
         <option value="$PROJECT_DIR$/users/static/users/css/styles.css" />
         <option value="$PROJECT_DIR$/users/templates/users/base.html" />
+        <option value="$PROJECT_DIR$/users/templates/users/index.html" />
       </list>
     </option>
   </component>
@@ -174,18 +174,18 @@
       <workItem from="1554897417171" duration="1761000" />
       <workItem from="1554899390696" duration="1806000" />
       <workItem from="1554969890989" duration="3930000" />
-      <workItem from="1555132078110" duration="16985000" />
+      <workItem from="1555132078110" duration="17435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24482000" />
+    <option name="totallyTimeSpent" value="24932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16312595" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06980273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,13 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/templates/users/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="38" column="137" selection-start-line="38" selection-start-column="137" selection-end-line="38" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -340,7 +333,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users/templates/users/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="836">
           <caret line="44" column="159" selection-start-line="44" selection-start-column="159" selection-end-line="44" selection-end-column="159" />
           <folding>
             <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -349,6 +342,13 @@
             <element signature="n#style#0;n#a#0;n#li#2;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/templates/users/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
         </state>
       </provider>
     </entry>
