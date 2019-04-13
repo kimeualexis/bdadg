@@ -7,12 +7,12 @@
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
             <div class="card card-body my-2">
-                <h3 class="text-primary">Delete {{ object.fname }}</h3>
+                <h3 class="text-primary" style="font-family: 'Droid Serif';">Delete {{ object.fname }}</h3>
                 <hr>
                     <form method="POST">
                         {% csrf_token %}
                         <fieldset class="form-group">
-                            <h4>Are you want to Delete "{{ object.fname }}"&nbsp;?</h4>
+                            <h4 style="font-family: 'DejaVu Serif';">Are you want to Delete "{{ object.fname }}"&nbsp;?</h4>
                         </fieldset>
                         <div class="form-group">
                             <button type="submit" class="btn btn-outline-danger">Yes, Delete</button>

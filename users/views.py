@@ -1,9 +1,10 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.views.generic import CreateView, UpdateView, DeleteView
 from .models import Profile
 from django.db.models import Q
 from .forms import UserForm
-from django.contrib.auth import login, logout, authenticate
+from django.contrib.auth import login, authenticate
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 
 
 # Create your views here.
@@ -21,7 +22,7 @@ def index(request):
     return render(request, 'users/index.html', {'profiles': profiles})
 
 
-class ProfileCreateView(CreateView):
+class ProfileCreateView(LoginRequiredMixin, CreateView):
     model = Profile
     fields = [
         'fname', 'sname', 'cover', 'area_raised', 'bio',
@@ -29,8 +30,12 @@ class ProfileCreateView(CreateView):
         'hobby', 'year_joined_library', 'profession'
     ]
 
+    def form_valid(self, form):
+        form.instance.user = self.request.user
+        return super().form_valid(form)
 
-class ProfileUpdateView(UpdateView):
+
+class ProfileUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Profile
     fields = [
         'fname', 'sname', 'area_raised', 'cover', 'bio',
@@ -38,10 +43,22 @@ class ProfileUpdateView(UpdateView):
         'hobby', 'year_joined_library', 'profession'
     ]
 
+    def test_func(self):
+        profile = self.get_object()
+        if self.request.user == profile.user:
+            return True
+        return False
 
-class ProfileDeleteView(DeleteView):
+
+class ProfileDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Profile
     success_url = '/'
+
+    def test_func(self):
+        profile = self.get_object()
+        if self.request.user == profile.user:
+            return True
+        return False
 
 
 def signup(request):
